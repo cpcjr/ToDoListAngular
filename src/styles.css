@@ -1,1 +1,148 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  background-image: url('fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa600', endColorstr='#f8d174', GradientType=1);
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+li {
+  padding: 15px;
+  margin: 10px;
+  font-size: 1em;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+li>button {
+  border: none;
+  background-color: #fff;
+  font-size: 1em;
+  float: right;
+  opacity: 0.6;
+  transition: opacity 1s;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+li>button:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.title {
+  margin-top: auto;
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 5em;
+  text-shadow: 3px 5px #000000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  padding: 20px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: 100;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#modal {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#modal>h1 {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+input {
+  width: 98.3%;
+  line-height: 50px;
+  text-indent: 10px;
+  font-size: 1.2em;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  border-radius: 7px;
+  border-style: inset;
+  border-width: 3px;
+}
+
+.danger {
+  color: #ff0000;
+  font-style: italic;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#cancelar {
+  margin-left: 20px;
+}
